@@ -1,0 +1,29 @@
+#showcase2 .container .section-text {
+    text-align: center;
+}
+
+.box-white {
+    transform: scale(0.7);
+}
+
+#showcase3 {
+    flex-direction: column;
+}
+
+
+/* About info */
+
+#about-info .container {
+    flex-direction: column;
+}
+
+#testimonials {
+    padding-bottom: 200px;
+}
+
+
+/* Contact */
+
+.info-box {
+    transform: scale(0.7);
+}
