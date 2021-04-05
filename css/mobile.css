@@ -1,29 +1,65 @@
-#showcase2 .container .section-text {
-    text-align: center;
-}
-
-.box-white {
-    transform: scale(0.7);
-}
-
-#showcase3 {
-    flex-direction: column;
-}
-
-
-/* About info */
-
-#about-info .container {
-    flex-direction: column;
-}
-
-#testimonials {
-    padding-bottom: 200px;
-}
-
-
-/* Contact */
-
-.info-box {
-    transform: scale(0.7);
-}
+                                    /*home*/
+                                    
+                                    .section-text1 {
+                                        transform: scale(0.7);
+                                    }
+                                    
+                                    .section-text h1 {
+                                        transform: scale(0.6);
+                                    }
+                                    
+                                    .section-text {
+                                        text-align: center;
+                                    }
+                                    
+                                    .box-white {
+                                        transform: scale(0.7);
+                                    }
+                                    
+                                    #showcase3 {
+                                        flex-direction: column;
+                                    }
+                                    /* About info */
+                                    
+                                    #about-info .container {
+                                        flex-direction: column;
+                                    }
+                                    
+                                    #testimonials {
+                                        padding-bottom: 200px;
+                                    }
+                                    
+                                    .testimonial {
+                                        transform: scale(0.6);
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .info-box {
+                                        transform: scale(0.7);
+                                    }
+                                    
+                                    @media screen and (max-width: 320px) {
+                                        .section-text1 h1 {
+                                            font-size: 20px;
+                                            text-align: center;
+                                            overflow: hidden;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 320px) {
+                                        #showcase .container p {
+                                            font-size: 15px;
+                                            text-align: center;
+                                            overflow: hidden;
+                                            margin: 0 auto;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 320px) {
+                                        .section-text h1 {
+                                            font-size: 18px;
+                                            text-align: center;
+                                            overflow: hidden;
+                                        }
+                                    }
